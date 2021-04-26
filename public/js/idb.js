@@ -62,6 +62,7 @@ function uploadTransactions() {
           budgetObjectStore.clear();
 
           alert('all transactions have been submitted!');
+          window.location.reload();
         })
         .catch(console.log);
     }
